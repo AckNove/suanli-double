@@ -1,0 +1,10 @@
+id,name,type,country,use_case,status,source_type,source_date,evidence_ids,evidence_status,tags,sensitive_ptr,notes
+DEM-20261102-001,ByteDance,模型公司,中国,训练/远程NVIDIA,线索,新闻,2025-11-27,B-E02;B-E03,待核验,模型公司 海外训练 NVIDIA 东南亚 字节跳动 需求侧,暂无,B-E02正文401失败；公司多未置评
+DEM-20261102-002,Alibaba,云商,中国,训练/远程NVIDIA,线索,新闻,2025-11-27,B-E02;B-E03,待核验,云商 海外训练 NVIDIA 阿里 需求侧 双向角色,暂无,与SUP-20261102-001双向；B-E02待核验
+DEM-20261102-003,Tencent,云商,中国,远程NVIDIA访问,线索,新闻,2026-08-19,B-E03,部分核验,云商 远程访问 NVIDIA 腾讯 需求侧 双向角色,暂无,与SUP-20261102-002双向；公司多未置评
+DEM-20261102-004,DeepSeek,模型公司,中国,报道为例外非确认海外租用,线索,新闻,2025-11-27,B-E02,待核验,模型公司 DeepSeek 报道例外 需求侧线索,暂无,B-E02摘要称例外；勿作已确认海外买家
+DEM-20261102-005,HUMAIN,模型公司/主权AI,沙特阿拉伯,GPU采购与主权算力基建,线索,官网/新闻,2025-11-19,B-E12;B-E13,已核验,中东 沙特 HUMAIN NVIDIA GPU采购 需求侧,暂无,公开计划至多约60万GPU；获准约3.5万Blackwell等值；无敏感字段
+DEM-20261102-006,G42,模型公司/AI基建,阿联酋,Stargate集群与芯片采购,线索,官网/新闻,2025-11-20,B-E13;B-E14;B-E15,已核验,中东 阿联酋 G42 Stargate NVIDIA 需求侧,暂无,1GW Stargate；获准约3.5万Blackwell等值；无敏感字段
+DEM-20261102-007,Sea Limited,企业IT/互联网,新加坡/马来西亚,柔佛DC offtake约32MW,线索,公告/新闻,2024-12-17,B-E17;B-E18,已核验,东南亚 Sea YTL 数据中心offtake 需求侧,暂无,锚定租户非确认GPU云租户；无敏感字段
+DEM-20261102-008,Nebius,云商,国际/沙特NEOM落点,AI园区容量offtake至多50MW,线索,官网,2026-10-21,B-E16,已核验,中东 NEOM Nebius offtake AI云 需求侧,暂无,初步框架；拟2027Q4起分阶段；无敏感字段
+DEM-20261102-009,GoTo Group,企业IT/互联网,印度尼西亚,五年云与AI服务采购,线索,官网,2024-09-17,B-E19,已核验,东南亚 印尼 GoTo AlibabaCloud 云采购 需求侧,暂无,未披露GPU规格；无敏感字段

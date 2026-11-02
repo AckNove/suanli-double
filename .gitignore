@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+.env
+*.db
+
+# Ignore real contents under any 99-敏感商务_仅本项目/ directory.
+# Keep README, *模板* / *template*, and .gitignore_note.md.
+**/99-敏感商务_仅本项目/**
+!**/99-敏感商务_仅本项目/**/
+!**/99-敏感商务_仅本项目/**/README
+!**/99-敏感商务_仅本项目/**/README.md
+!**/99-敏感商务_仅本项目/**/*模板*
+!**/99-敏感商务_仅本项目/**/*template*
+!**/99-敏感商务_仅本项目/**/.gitignore_note.md

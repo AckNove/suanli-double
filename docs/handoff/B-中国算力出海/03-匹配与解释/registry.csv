@@ -1,0 +1,4 @@
+id,supply_id,demand_id,score,status,next_step,evidence_ids,sensitive_ptr,updated
+MATCH-20261102-001,SUP-20261102-001,DEM-20261102-009,3,候选,出澄清清单（GPU规格/第三方可介入/数据驻留）；暂不商务试探,B-E04;B-E06;B-E19,无,2026-11-02
+MATCH-20261102-002,SUP-20261102-007,DEM-20261102-001,2,候选,补强证据（Aolani官网/B-E02原文）；暂不推进,B-E02;B-E03,无,2026-11-02
+MATCH-20261102-003,SUP-20261102-004,DEM-20261102-005,1,候选,暂不推进（主权NVIDIA采购vs国内运营商智算；负例）,B-E06;B-E12;B-E13,无,2026-11-02

@@ -1,0 +1,36 @@
+# 项目A证据表 — AI服务器产业链试研
+
+> 获取时间字段统一时区：**Asia/Shanghai**  
+> 本表生成：2026-11-02  
+> 核验状态说明：未核验 = 已打开页面摘录但未与第二独立来源交叉；已对照 = 两来源以上；冲突 = 口径不一致；缺失 = 无可靠来源
+
+| ID | 结论内容 | 事实/推断/假设 | 来源名称 | 原始链接 | 发布时间 | 获取时间 | 原文或数据摘录 | 来源类型 | 可信度 | 核验状态 | 冲突信息 |
+|----|----------|----------------|----------|----------|----------|----------|----------------|----------|--------|----------|----------|
+| A-E01 | AI 基础设施依赖芯片→数据中心/云→电力冷却等物理供应链 | 事实 | OECD | https://www.oecd.org/en/publications/competition-in-artificial-intelligence-infrastructure_623d1874-en/full-report/component-5.html | 2025-11-14 | 2026-11-02 | 报告第2章概述 AI supply chain 与 compute 重要性，并给出简化供应链图 | 国际组织报告 | 高 | 未核验（单源但权威） | 无 |
+| A-E02 | GPU 是 AI 训练最主要、最广泛使用的加速芯片；另有 FPGA、ASIC | 事实 | OECD | 同上 | 2025-11-14 | 2026-11-02 | Box 1: GPUs “by far the most widely available and most used chips in the AI sector”; ASIC 例举 Google TPU | 国际组织报告 | 高 | 未核验 | 无 |
+| A-E03 | NVIDIA 在用于 AI 的 GPU 市占估计超过 80% | 事实（二手估计） | OECD 援引 Farooque 2025 | 同上 | 2025-11-14 | 2026-11-02 | “over 80% market share for GPU chips used for AI (Farooque, 2025)” | 国际组织报告（转引） | 中高 | 冲突待查 | 与 A-E04 的约70%口径可能不一致 |
+| A-E04 | 2025年 NVIDIA 约占 AI 芯片市场70%；2026年 ASIC 拉货或更快致其市占下滑 | 事实（机构估计） | TrendForce 集邦咨询 | https://www.trendforce.cn/presscenter/news/20251030-12761.html | 2025-10-30 | 2026-11-02 | “估计2025年NVIDIA仍占据约70%的市场…预期ASIC拉货成长幅度将高于GPU，进而导致NVIDIA市占下滑” | 行业研究机构新闻稿 | 中高 | 冲突待查 | 与 A-E03 >80% GPU口径冲突 |
+| A-E05 | AMD 为主要 GPU 对手；CUDA 构成软件生态优势；Intel GPU 份额很小 | 事实 | OECD | 同 A-E01 | 2025-11-14 | 2026-11-02 | AMD “most direct rival”; CUDA 被描述为行业标准/“operating system” for AI；Intel “very small market share” | 国际组织报告 | 高 | 未核验 | 无 |
+| A-E06 | 大型科技公司自研 ASIC，通常通过自有云提供、面向特定负载 | 事实 | OECD | 同 A-E01 | 2025-11-14 | 2026-11-02 | Amazon, Google, Microsoft, Meta design own ASICs; typically only via own cloud | 国际组织报告 | 高 | 未核验 | 无 |
+| A-E07 | 先进代工高度集中；TSMC 称约99% AI 加速器使用其技术（2024披露） | 事实（转引公司披露） | OECD 援引 Wu 2024 / Bowman 2024 | 同 A-E01 | 2025-11-14 | 2026-11-02 | TSMC “99% of the world’s AI accelerators are made with TSMC technologies”; 先进制程代工份额叙述 | 国际组织报告（转引） | 中高 | 待用TSMC原文核验 | 无 |
+| A-E08 | 产业链价值向上游芯片/HBM倾斜；中游整机毛利承压；下游租赁或价格承压 | 推断 | 中研普华转载页 | https://www.chinairn.com/scfx/20260908/173308478.shtml | 页面标注2026相关 | 2026-11-02 | “加速芯片占比超过60%…整机业务毛利率普遍偏低…算力租赁报价下行”等 | 商业产业报告摘要页 | 中低 | 待核验 | 缺一手财报/调研原始数据 |
+| A-E09 | 2025年 HBM 需求量年增达130%以上；2026年消耗量年增仍或70%以上；HBM3e 价格与竞争格局变化 | 事实（机构估计） | TrendForce | 同 A-E04 | 2025-10-30 | 2026-11-02 | “HBM需求量年增达130%以上”“2026年HBM消耗量…年成长仍有70%以上”；三星完成HBM3e验证后三大原厂竞争 | 行业研究机构 | 中高 | 未核验 | 无 |
+| A-E10 | 2026年 AI Server 出货年增逾20%、占比约17%；产值与整柜方案驱动增长 | 事实（机构估计） | TrendForce | 同 A-E04 | 2025-10-30 | 2026-11-02 | 出货年增20%以上；2025产值近48%年成长；2026产值或增30%以上、营收占Server达74% | 行业研究机构 | 中高 | 未核验 | 无 |
+| A-E11 | 电力与冷却是数据中心关键约束；能源常为运营成本最大部分之一 | 事实 | OECD 援引 CMA 等 | 同 A-E01 | 2025-11-14 | 2026-11-02 | “energy supply…largest portion of operational costs”; access to energy may challenge new capacity | 国际组织报告 | 高 | 未核验 | 无 |
+| A-E12 | OEM/ODM 与互联瓶颈等公司层数据（收入、交期） | 推断/待核验 | Silicon Analysts 汇编页 | https://siliconanalysts.com/research/ai-data-center-value-chain | 页脚更新 2026-08-06 | 2026-11-02 | 列举 Supermicro/Dell 等及 DAC 交期>20周等；方法论称综合财报与研究机构 | 商业研究站点 | 中 | 待核验 | 须回源财报；不可直接当已审计事实 |
+| A-E13 | 截至2025年6月底中国在用算力中心机架1085万标准机架；智能算力788EFlops（FP16） | 事实（官方智库） | 中国信通院报告（检索摘要+PDF链接） | https://www.caict.ac.cn/kxyj/qwfb/ztbg/202511/P020251106555844142999.pdf | 报告系列2025-11路径 | 2026-11-02 | 检索与PDF摘录：“机架总规模达1085万标准机架，智能算力规模达到788EFlops（FP16）” | 政府背景智库报告 | 高 | 部分核验（搜索多份CAICT一致引用） | 另有FP32设备侧782EFlops等口径，引用须注明 |
+| A-E14 | 中国政策强调智算统筹、一体化算力网与供需匹配 | 事实 | 信通院报告转述国务院/国家数据局文件 | 同 A-E13 | 2025行动方案等（报告内述） | 2026-11-02 | 述及2025-05《数字中国建设2025年行动方案》、2025-08《人工智能+》意见等 | 政策转述 | 中高 | 待打开政策原文核验文号与表述 | 本次未逐条打开国务院原文 |
+| A-E15 | NVIDIA 毛利率超70%、2023–2024收入大增等 | 事实（转引） | OECD 援引 NVIDIA 2025 | 同 A-E01 | 2025-11-14 | 2026-11-02 | “gross margins of over 70%…revenues increase by 405% between 2023 and 2024” | 国际组织转引公司 | 中高 | 待NVIDIA财报原文 | 无 |
+
+## 证据统计
+
+- 本表条目：**15**
+- 标明冲突：**2 组相关（A-E03 vs A-E04；A-E13 口径族）**
+- 明确待核验/中低可信：A-E08、A-E12、A-E14、部分转引
+
+## 主要缺口
+
+1. 上市公司最新年报/季度原始 HTML 或 PDF 未系统入库  
+2. 光模块、液冷渗透率缺行业协会一手表  
+3. 国产加速芯片分厂商出货缺权威分列  
+4. Goldman/部分媒体页抓取失败（403/401），相关数字未写入本表
