@@ -1,0 +1,3 @@
+﻿demand_id,name,country,target_regions,required_gpu_models,required_gpu_quantity,max_delivery_weeks,required_compliance_tags,budget_tier,status,evidence_ids,notes
+SYN-DEM-01,Synthetic Buyer（合成）,新加坡,东南亚,H100,1000,12,数据驻留,百万美元级,需求明确,B-E10,SYNTHETIC：卡数1000、12周内交付、需数据驻留
+SYN-DEM-02,Synthetic Gulf Buyer（合成）,沙特阿拉伯,中东,B200,4000,10,数据驻留,千万美元级,评估中,B-E11,SYNTHETIC：用于检验中东区域与B200卡型

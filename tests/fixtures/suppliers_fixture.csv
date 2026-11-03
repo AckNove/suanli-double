@@ -1,0 +1,8 @@
+﻿supplier_id,name,home_region,serves_regions,gpu_models,gpu_quantity,max_delivery_weeks,compliance_tags,status,evidence_ids,notes
+SYN-SUP-01,AlphaCompute（合成）,中国,东南亚|中东,H100|H200,2000,8,数据驻留|出口管制-允许,可报价,B-E01|B-E02,SYNTHETIC：应判定为可匹配
+SYN-SUP-02,BetaDC（合成）,阿联酋,中东,B200,5000,4,数据驻留,已合作,B-E05,SYNTHETIC：区域与卡型均不匹配
+SYN-SUP-03,GammaCloud（合成）,中国,东南亚,H100,100,6,数据驻留,已接触,B-E06,SYNTHETIC：容量不足
+SYN-SUP-04,DeltaRack（合成）,中国,东南亚,H100,3000,30,数据驻留,可报价,B-E07,SYNTHETIC：交付周期过长
+SYN-SUP-05,EpsilonAI（合成）,中国,东南亚,H100,3000,8,等保二级,线索,B-E08,SYNTHETIC：已披露「等保二级」，缺需求必备的「数据驻留」→ 合规缺口
+SYN-SUP-06,ZetaCloud（合成）,中国,东南亚,H100,3000,8,数据驻留,搁置,B-E09,SYNTHETIC：供方状态不活跃
+SYN-SUP-07,EtaCloud（合成）,中国,,,,,,线索,,SYNTHETIC：规格全缺 → 无法判定，不许猜

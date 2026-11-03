@@ -1,7 +1,20 @@
 venv/
+.venv/
 __pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
 .env
+
+# 数据库文件（研究库 / 私密库）
 *.db
+*.db-wal
+*.db-shm
 
 # Ignore real contents under any 99-敏感商务_仅本项目/ directory.
 # Keep README, *模板* / *template*, and .gitignore_note.md.
@@ -12,3 +25,19 @@ __pycache__/
 !**/99-敏感商务_仅本项目/**/*模板*
 !**/99-敏感商务_仅本项目/**/*template*
 !**/99-敏感商务_仅本项目/**/.gitignore_note.md
+
+# 本地运行时数据：原始资料 / 正文缓存 / 私密库目录 / 工具日志 / 导出
+data/raw/*
+!data/raw/.gitkeep
+data/text/*
+!data/text/.gitkeep
+data/private/
+data/logs/
+data/exports/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
