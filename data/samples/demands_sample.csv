@@ -1,0 +1,10 @@
+﻿demand_id,name,country,target_regions,required_gpu_models,required_gpu_quantity,max_delivery_weeks,required_compliance_tags,budget_tier,status,evidence_ids,notes
+DEM-20261102-001,ByteDance,中国,东南亚,,,,,,,B-E02|B-E03,B-E02正文401失败；公司多未置评（不得当已确认买家）
+DEM-20261102-002,Alibaba,中国,东南亚,,,,,,,B-E02|B-E03,与SUP-20261102-001双向；B-E02待核验
+DEM-20261102-003,Tencent,中国,东南亚,,,,,,,B-E03,与SUP-20261102-002双向；公司多未置评
+DEM-20261102-004,DeepSeek,中国,东南亚,,,,,,,B-E02,报道称例外，非确认海外租用；勿作已确认买家
+DEM-20261102-005,HUMAIN,沙特阿拉伯,中东,,,,,,,B-E12|B-E13,公开计划至多数十万GPU；获准规模有限
+DEM-20261102-006,G42,阿联酋,中东,,,,,,,B-E13|B-E14|B-E15,1GW Stargate；获准约3.5万Blackwell等值
+DEM-20261102-007,Sea Limited,新加坡/马来西亚,东南亚,,,,,,,B-E17|B-E18,锚定租户，非确认GPU云租户
+DEM-20261102-008,Nebius,国际/沙特NEOM落点,中东,,,,,,,B-E16,初步框架；拟2027Q4起分阶段
+DEM-20261102-009,GoTo Group,印度尼西亚,东南亚,,,,,,,B-E19,未披露GPU规格
